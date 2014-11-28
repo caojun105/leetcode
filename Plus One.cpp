@@ -19,7 +19,6 @@ public:
             return res;
         }
         reverse(digits.begin(),digits.end());
-        
         vector<int>::iterator iter=digits.begin();
         int jinwei=1;
         while(iter!=digits.end())
@@ -33,9 +32,7 @@ public:
             res.push_back(1);
         }
         reverse(res.begin(),res.end());
-        
+
         return res;
-        
-        
     }
 };
